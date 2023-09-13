@@ -69,25 +69,26 @@ namespace StudentManagement.Controllers
             // Handling Upload avatar file:
             // - Avatar files will store in ~/wwwroot/UploadFiles/
             // 
-            try
-            {
-                if (await _bufferedFileUploadService.UploadFile(avatarfile))
+            if (avatarfile != null)
+                try
                 {
-                    Debug.WriteLine("File Upload Successful");
-                    ViewBag.Message = "File Upload Successful";
+                    if (await _bufferedFileUploadService.UploadFile(avatarfile))
+                    {
+                        Debug.WriteLine("File Upload Successful");
+                        ViewBag.Message = "File Upload Successful";
+                    }
+                    else
+                    {
+                        Debug.WriteLine("File Upload Failed");
+                        ViewBag.Message = "File Upload Failed";
+                    }
                 }
-                else
+                catch
                 {
                     Debug.WriteLine("File Upload Failed");
+                    //Log ex
                     ViewBag.Message = "File Upload Failed";
                 }
-            }
-            catch
-            {
-                Debug.WriteLine("File Upload Failed");
-                //Log ex
-                ViewBag.Message = "File Upload Failed";
-            }
 
             //
             // Handling store The new student

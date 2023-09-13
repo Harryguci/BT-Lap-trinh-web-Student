@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VG9X77QZ6N0laNleVD53iYPUC0pkzj0k+KxX+/oflzw=",
+  "Hash": "7m3S3ZTKYn/CG6DM2NvaDqkCPyDAGAZpkCed+WUmsUs=",
   "Source": "StudentManagement",
   "BasePath": "_content/StudentManagement",
   "Mode": "Default",
@@ -1069,6 +1069,57 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "F:\\C-Sharp\\StudentManagement\\wwwroot\\UploadedFiles\\342221857_756193829307322_5626166445643634772_n.jpg",
+      "SourceId": "StudentManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\C-Sharp\\StudentManagement\\wwwroot\\",
+      "BasePath": "_content/StudentManagement",
+      "RelativePath": "UploadedFiles/342221857_756193829307322_5626166445643634772_n.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadedFiles\\342221857_756193829307322_5626166445643634772_n.jpg"
+    },
+    {
+      "Identity": "F:\\C-Sharp\\StudentManagement\\wwwroot\\UploadedFiles\\346839344_1226467128000844_1277887434946196096_n.jpg",
+      "SourceId": "StudentManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\C-Sharp\\StudentManagement\\wwwroot\\",
+      "BasePath": "_content/StudentManagement",
+      "RelativePath": "UploadedFiles/346839344_1226467128000844_1277887434946196096_n.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadedFiles\\346839344_1226467128000844_1277887434946196096_n.jpg"
+    },
+    {
+      "Identity": "F:\\C-Sharp\\StudentManagement\\wwwroot\\UploadedFiles\\IMG_0296.JPG",
+      "SourceId": "StudentManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\C-Sharp\\StudentManagement\\wwwroot\\",
+      "BasePath": "_content/StudentManagement",
+      "RelativePath": "UploadedFiles/IMG_0296.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadedFiles\\IMG_0296.JPG"
     }
   ]
 }
