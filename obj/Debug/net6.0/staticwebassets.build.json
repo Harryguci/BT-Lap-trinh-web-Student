@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "k4MfKcWXf7zjIXeQWg40E2grLuFdqliYglqRR8KHUTo=",
+  "Hash": "VG9X77QZ6N0laNleVD53iYPUC0pkzj0k+KxX+/oflzw=",
   "Source": "StudentManagement",
   "BasePath": "_content/StudentManagement",
   "Mode": "Default",
@@ -1069,23 +1069,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
-    },
-    {
-      "Identity": "F:\\C-Sharp\\StudentManagement\\wwwroot\\UploadedFiles\\342221857_756193829307322_5626166445643634772_n.jpg",
-      "SourceId": "StudentManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\C-Sharp\\StudentManagement\\wwwroot\\",
-      "BasePath": "_content/StudentManagement",
-      "RelativePath": "UploadedFiles/342221857_756193829307322_5626166445643634772_n.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\UploadedFiles\\342221857_756193829307322_5626166445643634772_n.jpg"
     }
   ]
 }

@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using StudentManagement.Models;
 using StudentManagement.Services.Interfaces;
 using System.Diagnostics;
-using System.Net.Http;
 
 namespace StudentManagement.Controllers
 {

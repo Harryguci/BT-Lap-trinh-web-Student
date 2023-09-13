@@ -55,8 +55,16 @@
                     @if (s.AvatarUrl != null)
                     {
                         <a href="/@s.AvatarUrl">
-                            <img src="/@s.AvatarUrl" width="50" height="50" />
+                            <img src="/@s.AvatarUrl" 
+                            width="50"
+                            height="50"
+                            style="border-radius: 5px"
+                            />
                         </a>
+                    }
+                    else
+                    {
+                        <>None</>
                     }
                 </td>
             </tr>
