@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using StudentManagement.Models;
 using StudentManagement.Services.Interfaces;
@@ -89,7 +90,10 @@ namespace StudentManagement.Controllers
                     //Log ex
                     ViewBag.Message = "File Upload Failed";
                 }
-
+            if (ModelState.Root.Children != null && ModelState.Root.Children.Count > 8)
+            {
+                ModelState.Root.Children[9].ValidationState = Microsoft.AspNetCore.Mvc.ModelBinding.ModelValidationState.Valid;
+            }
             //
             // Handling store The new student
             //

@@ -16,6 +16,7 @@
             <th>Hệ ĐT</th>
             <th>Địa chỉ</th>
             <th>Email</th>
+            <th>Điểm</th>
             <th>Avatar</th>
         </tr>
     </thead>
@@ -51,8 +52,9 @@
                 <td>@(s.IsRegular ? "Chính quy" : "Phi chính quy")</td>
                 <td>@s.Address</td>
                 <td>@s.Email</td>
+                <td>@s.Mark</td>
                 <td>
-                    @if (s.AvatarUrl != null)
+                    @if (s.AvatarUrl != null && s.AvatarUrl != string.Empty)
                     {
                         <a href="/UploadedFiles/@s.AvatarUrl">
                             <img src="/UploadedFiles/@s.AvatarUrl" 
