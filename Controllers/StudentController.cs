@@ -67,7 +67,7 @@ namespace StudentManagement.Controllers
         {
             //
             // Handling Upload avatar file:
-            // - Avatar files will store in ~/wwwroot/UploadFiles/
+            // - Avatar files will store in ~/wwwroot/UploadedFiles/
             // 
             if (avatarfile != null)
                 try
@@ -93,14 +93,21 @@ namespace StudentManagement.Controllers
             //
             // Handling store The new student
             //
-            s.Id = listStudents.Last<Student>().Id + 1;
-
-            // Handle Avatar Url. 
-            if (s.AvatarUrl != null)
-                s.AvatarUrl = Path.Combine("UploadedFiles", s.AvatarUrl);
-
-            listStudents.Add(s);
-            return View("Index", listStudents);
+            if (ModelState.IsValid)
+            {
+                s.Id = listStudents.Last<Student>().Id + 1;
+                listStudents.Add(s);
+                return View("Index", listStudents);
+            }
+            ViewBag.AllGenders = Enum.GetValues(typeof(Gender)).Cast<Gender>().ToList();
+            ViewBag.AllBranches = new List<SelectListItem>()
+            {
+                new SelectListItem { Text = "IT", Value = "1" },
+                new SelectListItem { Text = "BE", Value = "2" },
+                new SelectListItem { Text = "CE", Value = "3" },
+                new SelectListItem { Text = "EE", Value = "4" }
+            };
+            return View();
         }
     }
 }
