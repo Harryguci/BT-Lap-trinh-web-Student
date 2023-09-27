@@ -40,7 +40,7 @@ namespace StudentManagement.Models
         public string? Address { get; set; } //Địa chỉ
 
         [Display(Name = "Ngày sinh")]
-        [Range(typeof(DateTime), "1/1/1963", "31/12/2005",
+        [Range(typeof(DateTime), "01/01/1963 00:00", "01/01/2006 00:00", 
             ErrorMessage = "Ngày sinh phải từ 01/01/1963 - 31/12/2005")]
 
         [DataType(DataType.Date)]
